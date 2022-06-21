@@ -2,6 +2,11 @@
 
 Node Library to convert/retrieve encrypted object to/from file
 
+To Install
+```
+npm i object-file-encrypter
+```
+
 ```js
 const ObjectFileEncrypter = require('object-file-encrypter')
 
