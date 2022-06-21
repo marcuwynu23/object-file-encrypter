@@ -1,5 +1,7 @@
 # Object-File-Encrypter
 
+Node Library to convert/retrieve encrypted object to/from file
+
 ```js
 const ObjectFileEncrypter = require('object-file-encrypter')
 
