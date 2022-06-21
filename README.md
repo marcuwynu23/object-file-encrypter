@@ -1,6 +1,6 @@
 # Object-File-Encrypter
 
-```
+```js
 const ObjectFileEncrypter = require('object-file-encrypter')
 
 let encrypter = new ObjectFileEncrypter('secret', {ttl: true})
@@ -17,3 +17,6 @@ encrypter.readFile('hash.txt',(err,data)=>{
 let hash = encrypter.writeFileSync('./.encrypt/hash',{n: "dsdsd"})
 console.log(encrypter.readFileSync('./.encrypt/hash'))
 ```
+
+### Dependency
+- https://github.com/voronianski/node-object-encrypter
