@@ -7,7 +7,7 @@ const ObjectFileEncrypter = require('object-file-encrypter')
 
 let encrypter = new ObjectFileEncrypter('secret', {ttl: true})
 
-encrypter.writeFile('hash.txt',{name: "Mark Wayne Menorca"},(err)=>{
+encrypter.writeFile('hash.txt',{name: "Marco Mulleda"},(err)=>{
 	if(err)	console.log(err)
 })
 
@@ -16,7 +16,7 @@ encrypter.readFile('hash.txt',(err,data)=>{
 	console.log(data)
 })
 
-let hash = encrypter.writeFileSync('./.encrypt/hash',{n: "dsdsd"})
+let hash = encrypter.writeFileSync('./.encrypt/hash',{name: "Marco Mulleda"})
 console.log(encrypter.readFileSync('./.encrypt/hash'))
 ```
 
